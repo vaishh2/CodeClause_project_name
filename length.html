@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Length conversion</title>
+    <link rel="stylesheet" href="convert.css" class="styles">
+</head>
+<body>
+  <div class="alldata" id="alldata">
+    
+
+        <label>Enter Value:</label>
+        <input type="number" id="inputvalue">
+      
+      
+      <p>
+        From:
+        <select class="fromunit" id="fromunit">
+          <option value=""> </option> 
+          <option value="kilometer">Kilometer</option>
+          <option value="millimeter">Millimeter</option>
+          <option value="micrometer">Micrometer</option>
+          <option value="meter">Meter</option>
+        
+        </select>
+      <br>
+      To:
+        <select name="tounit" id="tounit">
+          <option value=""></option>
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilometer</option>
+          <option value="millimeter">Millimeter</option>
+          <option value="micrometer">Micrometer</option>
+         </select>
+    <br>
+  <button onclick="convertlength()">Convert</button>  <br>
+       <div id="result"></div>
+      </p>
+      </div>
+      <script src="unitt.js"></script>
+      
+</body>
+</html>

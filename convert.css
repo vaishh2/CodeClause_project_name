@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: medium;
+ background-color:rgb(20, 22, 22);
+}
+
+.navbar {
+  display: flex;
+ text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bolder;
+  justify-content: space-evenly;
+  padding:50px;
+font-size: 30px;
+text-transform: uppercase;
+margin-bottom: 50px;
+color:darkgoldenrod
+}
+.container{
+  background-color: beige;
+    border: 10px solid darkgoldenrod;
+    padding: 90px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 200px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container ul li{
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: xx-large;
+  display: flex;
+  font-family: monospace;
+  font-weight: bolder;
+}
+.container ul a {
+  text-decoration: none;
+  color: #000;
+}
+.container ul li:hover{
+  background-color: darkolivegreen;
+}
+.alldata{
+  background-color: beige;
+    border: 10px solid darkgoldenrod;
+    padding: 90px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 200px;
+    height:100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-evenly;
+}
+.alldata label {
+font-weight: bolder;
+
+display: flex;
+font-size: large;
+margin-top: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.alldata p{
+  font-weight:bold;
+  font-size: large;
+margin-top: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+  width: 80px;
+  text-shadow: 10px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  padding: 2px 10px;
+  cursor: pointer;
+  border-radius: 5px 5px;
+  border-color: black;
+  box-shadow: 2px;
+  box-sizing: border-box;
+  margin: 15px;
+  font-size: medium;
+  font-weight: bold;
+  justify-content: space-evenly;
+}
+.result{
+  font-size: medium;
+  font-weight: bold;
+  
+}
+
+
